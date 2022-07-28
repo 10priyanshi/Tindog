@@ -1,0 +1,130 @@
+body{
+   
+font-family: 'Ubuntu', sans-serif;
+background-color: rgb(247, 245, 243);
+}
+#title{
+    background-color:rgb(222, 119, 119);
+    color: #fff;
+   
+}
+h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+    font-weight: bold;
+}
+.navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+/**.title-img{
+    width: 15%;
+   right: 30%s;
+    position: absolute;
+    z-index: -1;
+}**/
+
+   
+    
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  
+}
+
+.box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+     text-align: center;
+    font-family: "montserrat-bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+.icon{
+   color:  #ef8172;
+   margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+
+ text-align: center;
+ background-color: rgb(222, 119, 119);
+ color: #fff;
+}
+.carousel-item{ 
+    padding: 7% 15%;
+ }
+h2{
+    text-align: center;
+    font-family: 'montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width:30%;
+    border-radius: 100%;
+}
+.testimonial-image1{
+    width:20%;
+    border-radius:100%;
+}
+.testimonial-image2{
+    width:20%;
+    border-radius: 100%;
+}
+#press{
+    background-color: rgb(222, 119, 119);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.img-press{
+    margin: 20px 20px 5px;
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#draw{
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding:7% 15% ;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icons{
+    text-align: center;
+    margin: 20px 10px;
+}
+.btn{
+    margin: 0 5% 0;
+}
+
+@media(max-width:128px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position:static ;
+    }
+
+}
